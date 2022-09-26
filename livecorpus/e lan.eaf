@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-09-26T20:54:35+03:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/Asus/Desktop/еблан/иван левин елан.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./иван левин елан.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:4431d464-55e4-444f-9dc1-5f2f6af258f3</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">14</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="20"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="4580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="4580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="6580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="6790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="12590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="13340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="20580"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="20740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="46280"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="46380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="60990"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="@dstsikh2002f" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@islevin1984m" TIER_ID="text">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>еще одна очень распространенная штука про которую мы в прошлый раз уже говорили</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>да / да эээ да смена ну обычно фамилии только да при эээ браке</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>эээ вот эээ ну и в принципе да здесь нужно смотреть с одной стороны на личные аспекты с другой стороны на правовые</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>то есть ну личные да это какая-то личная мотивация и мм аа то как человеку хочется чтобы его называли ммм аа от плюс да опять же на самом деле здесь эээ смена имени ээ можно так как бы в кавычках немнокжко воспринимать потому что это может быть именно смена а может быть добавление какого-то нового варианта для определенных социальных ситуаций</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>да например ээээ сценическое имя может быть у человека ээ нрзб какое-нибудь эээ да или эээ ну сценическое имя псевдоним там например публикует человек под каким-то псевдонимом работы</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="@dstsikh2002f" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="@p200f" TIER_ID="answer">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>а ну может / при замужестве</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="@dstsikh2002n" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="translate" PARENT_REF="text"
+        PARTICIPANT="@islevin198xm" TIER_ID="translation">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Another one very wide-spreaded thing we talked about last time</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>yes yes the change of, usually, last name only when married</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>Well, we need to look at it from personal perspective and from legal perspective</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>Personal is some personal motivation and the way a person wants to be called. Plus change here can be put in quotes as it can be a change or can be an addition some new variant for specific social occassions</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>For example, a person can have a stage name or a pseudonym, for example, when publishing anything.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="translate" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
